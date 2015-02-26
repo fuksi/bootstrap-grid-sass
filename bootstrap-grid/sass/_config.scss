@@ -1,17 +1,17 @@
 // Variables
 
 // Columns and gutter
-$number_of_columns: 24;
-$gutter-width: 20px;
+$grid-columns: 24;
+$grid-gutter-width: 20px;
 
 // Max-width / Container max-width
-$max-width-lg: 1200px;
-$max-width-md: 992px;
-$max-width-sm: 768px;
-$max-width-xs: 480px;
+$max-width-lg: 95%; //1140px
+$max-width-md: 95%; //942px
+$max-width-sm: 95%; //729px
+$max-width-xs: 95%; //456px
 
-// Screen size break-points (conventionally : $max-width - 1)
-$xs: 479px; $sm: 767px; $md: 991px; $lg: 1199px;
+//Break points ~ Conventionally: $screen-size-max-width - 1
+$break-xs: 479px; $break-sm: 767px; $break-md: 991px; $break-lg: 1199px;
 
 // Normalize or helper
 //@import 'bootstrap/helpers/normalize';

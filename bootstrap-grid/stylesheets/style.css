@@ -84,19 +84,19 @@ table {
 @media (min-width: 767px) {
   /* line 10, ../sass/bootstrap/_grid.scss */
   .container {
-    width: 788px;
+    width: 95.83333%;
   }
 }
 @media (min-width: 991px) {
   /* line 10, ../sass/bootstrap/_grid.scss */
   .container {
-    width: 1012px;
+    width: 95.83333%;
   }
 }
 @media (min-width: 1199px) {
   /* line 10, ../sass/bootstrap/_grid.scss */
   .container {
-    width: 1220px;
+    width: 95.83333%;
   }
 }
 

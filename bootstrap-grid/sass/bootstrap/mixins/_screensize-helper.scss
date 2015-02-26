@@ -1,4 +1,4 @@
-@mixin print_screen_size($size ){
+@mixin print_screen_size($size){
   $min-width: '';
   $max-width: ''; 
   $found: false;
@@ -10,7 +10,7 @@
     }
   }
   @if $found == true{
-    @media (min-width: #{$min-width}px) and (max-width: #{$max-width}px ){
+    @media (min-width: #{$min-width}) and (max-width: #{$max-width} ){
       @content
     }
   }
