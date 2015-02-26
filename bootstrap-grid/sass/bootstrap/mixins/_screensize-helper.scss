@@ -1,0 +1,37 @@
+@mixin print_screen_size($size ){
+  $min-width: '';
+  $max-width: ''; 
+  $found: false;
+  @for $screen-size from 1 through length($screen-sizes){
+    @if nth($screen-sizes,$screen-size) == $size {
+      $min-width: #{nth($screen-min,$screen-size)};
+      $max-width: #{nth($screen-max,$screen-size)};
+      $found: true;
+    }
+  }
+  @if $found == true{
+    @media (min-width: #{$min-width}px) and (max-width: #{$max-width}px ){
+      @content
+    }
+  }
+}
+@mixin screensize($sizes){
+  @if( length($sizes) > 1 ){
+    @each $size in $sizes{
+      @include print_screen_size($size){
+        @content;
+      }
+    }
+  }
+  @else{
+    @include print_screen_size($sizes){
+      @content;      
+    }
+  }
+}
+
+@mixin ss($sizes){
+  @include screensize($sizes){
+    @content;
+  }  
+}
