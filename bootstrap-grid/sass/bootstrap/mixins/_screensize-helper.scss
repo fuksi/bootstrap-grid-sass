@@ -1,3 +1,6 @@
+
+//Output media queries for each size
+
 @mixin print_screen_size($size){
   $min-width: '';
   $max-width: ''; 
@@ -15,6 +18,9 @@
     }
   }
 }
+
+// Loop at checked through sizes, naming defined in _variable.scss
+
 @mixin screensize($sizes){
   @if( length($sizes) > 1 ){
     @each $size in $sizes{
@@ -30,6 +36,7 @@
   }
 }
 
+// Media queries shortcut, take a list as the only argument, i.e. ss((xs,sm,md,lg))
 @mixin ss($sizes){
   @include screensize($sizes){
     @content;
