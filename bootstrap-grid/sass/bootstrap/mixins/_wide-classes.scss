@@ -16,6 +16,7 @@
     $list: "#{$list}, .wide-col-#{$class}-#{$i}";
   }
   #{$list} {
+    display: inline-block;
     float: left;
   }
 }

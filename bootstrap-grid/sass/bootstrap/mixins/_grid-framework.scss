@@ -28,6 +28,7 @@
     $list: "#{$list}, .col-#{$class}-#{$i}";
   }
   #{$list} {
+    display: inline-block;
     float: left;
   }
 }

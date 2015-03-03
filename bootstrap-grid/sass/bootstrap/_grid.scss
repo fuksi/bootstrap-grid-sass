@@ -10,6 +10,8 @@
 .container {
   //@include container-fixed;
 
+  margin-right: auto;
+  margin-left: auto;
   @include clearfix;
 
   max-width: $max-width;
@@ -32,6 +34,8 @@
 
 .row {
   @include make-row;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
