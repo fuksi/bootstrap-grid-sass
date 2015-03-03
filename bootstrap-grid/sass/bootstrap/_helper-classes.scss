@@ -16,6 +16,17 @@
 	text-align: right;
 }
 
-.block-center > *, .block-left > *, .block-right > * {
+.block-justify {
+	text-align: justify;	
+}
+
+.block-center > *, .block-left > *, .block-right > *, .block-justify > * {
 	float: none;
+}
+
+.block-justify:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+	fonrt-size: 0.000001%;
 }
