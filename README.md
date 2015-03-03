@@ -1,7 +1,7 @@
 # Bootstrap grid with Sass, and much more  [![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass)
 
 
-Bootstrap-grid with Sass is a derived portion of Bootstrap Sass, which includes only bootstrap-grid, responsive utility, and own helper functions, which makes the templating process easier and faster, without the complications of compiling a new bootstrap configuration, and without the uneccessarys resource it provides.
+Bootstrap-grid with Sass is a derived portion of Bootstrap Sass, which includes only bootstrap-grid, responsive utility, and own helper functions, which makes the templating process easier and faster, without the complication of compiling a new bootstrap configuration, and without the uneccessary resources it brings along.
 
 ## Installation
 
