@@ -3,6 +3,10 @@
 // Columns and gutter
 $grid-columns: 24;
 $grid-gutter-width: 20px;
+// The total number of gutters would be 23 + 1/2 + 1/2 = 24
+
+// Max fixed width
+$max-width: 1200px;
 
 // Max-width / Container max-width
 $max-width-lg: 95%; //1140px

@@ -47,7 +47,6 @@ $screen-max: $break-xs, $break-sm, $break-md, $break-lg, 9999px; // Max widths f
 //## Define the maximum width of `.container` for different screen sizes.
 
 // Gutter with percentage
-$max-width: $break-lg + 1;
 $grid-gutter-width-percentage: percentage(($grid-gutter-width/2)/$max-width);
 // Small screen / tablet
 $container-tablet:             ($max-width-sm + $grid-gutter-width-percentage) !default;
