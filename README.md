@@ -12,7 +12,7 @@ Bootstrap-grid with Sass is a derived portion of Bootstrap Sass, which includes 
 ```
 * For CSS users, include your css file before other stylings. Yes it's that simple!
 ```html
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 ```
 ## Configuration 
 
