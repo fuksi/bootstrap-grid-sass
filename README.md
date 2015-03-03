@@ -41,8 +41,8 @@ $break-xs: 479px; $break-sm: 767px; $break-md: 991px; $break-lg: 1199px;
 
 ## Using 
 
-* Container-fluid removed, I meant, why do we even...
-* If you set `max-width: 1200px`, container will have `max-width: 1200px` and that's it, none of the padding crap. No more fight width designer
+* Container-fluid removed, I mean, why do we even...
+* If you set `max-width: 1200px`, container will have `max-width: 1200px` and that's it, none of the padding crap. No more fight with designers
 * Grid system and visible/hidden utility naming convention is still the same as Bootstrap CSS
 * Extra
   * Put `wide` before any `col`, you get a column without the padding, i. e.  `.wide-col-xs-4`
