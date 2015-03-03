@@ -15,9 +15,9 @@
     // Inner gutter via padding
     padding-left:  ($grid-gutter-width / 2);
     padding-right: ($grid-gutter-width / 2);
-    // -moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
-    // -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
-    // box-sizing:        border-box;   /* Everything else */
+    -moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
+    -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+    box-sizing:        border-box;   /* Everything else */
   }
 }
 
