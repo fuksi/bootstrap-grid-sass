@@ -55,9 +55,11 @@ $break-xs: 479px; $break-sm: 767px; $break-md: 991px; $break-lg: 1199px;
     margin-top: 1em; 
   }
 }
+```
 
-//will become
+WILL BECOME
 
+```css
 @media (min-width: 1200px) and (max-width: 9999px) {
   .toggle {
     margin-top: 1em; 
